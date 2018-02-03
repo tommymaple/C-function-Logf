@@ -1,5 +1,5 @@
 /* C function Logf Ver1.0 by DiliverUnicorn
-    copy left
+    copyleft
 
 Features:
     1.logs events.
@@ -11,7 +11,7 @@ Features:
 #include<string.h>
 void logf( char logstr[])
 {
-    char event[256+22]={0};//22 �O�ɶ��һݪ���m
+    char event[256+22]={0};//22 ¬O®É¶¡©Ò»Ýªº¦ì¸m
     FILE * logf_pFile;
     logf_pFile = fopen ("Log","a+");
 
