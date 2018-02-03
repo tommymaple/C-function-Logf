@@ -11,7 +11,7 @@ Features:
 #include<string.h>
 void logf( char logstr[])
 {
-    char event[256+22]={0};//22 ¬O®É¶¡©Ò»Ýªº¦ì¸m
+    char event[256+22]={0};//22for time string use
     FILE * logf_pFile;
     logf_pFile = fopen ("Log","a+");
 
@@ -22,11 +22,11 @@ void logf( char logstr[])
     {
         time ( &rawtime );
         timeptr = gmtime ( &rawtime );
-
+        //write time in string
         sprintf (event,"%d%02d%02d UTC %2d:%02d:%02d ", 1900 + timeptr->tm_year, timeptr->tm_mon, timeptr->tm_mday, timeptr->tm_hour, timeptr->tm_min, timeptr->tm_sec);//utc
-        //printf ("%d %d UTC %2d:%02d:%02d ",1900 + timeptr->tm_year , (timeptr->tm_hour)%24, timeptr->tm_min, timeptr->tm_sec);//utc
+        //combine time and events
         strcat(event,logstr);
-
+        //detect endline ,if no endline add on it.
         if( NULL==strchr(event,'\n') )
             strcat(event,"\n");
 
