@@ -1,5 +1,5 @@
 /* C function Logf Ver1.0 by DiliverUnicorn
-    copy left
+    copyleft
 
 Features:
     1.logs events.
