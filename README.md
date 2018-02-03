@@ -1,6 +1,6 @@
 # C-function-Logf
-a function can use to logs events with UTC time 
-具有 LOG 事件的簡單C程式  
+a function can use to logs events with UTC time
+具有 LOG 事件的簡單C程式
 特色:
   1.事件寫入
   2.使用UTC時間
