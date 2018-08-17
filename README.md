@@ -1,4 +1,4 @@
-# C-function-Logf
+# C-function-Logf Ver1.1 2018/08/17
 a function can use to logs events with UTC time
 具有 LOG 事件的簡單C程式
 特色:
