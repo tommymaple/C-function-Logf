@@ -1,6 +1,5 @@
-/* C function Logf Ver1.0 by DiliverUnicorn
-    copyleft
-
+/** LogF Ver1.1 DiliverUnicorn Copy LEFT Nothing RIGHTS**/
+/*
 Features:
     1.logs events.
     2.UTC time with in.
