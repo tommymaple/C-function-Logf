@@ -1,14 +1,15 @@
-/* C function Logf Ver1.0 by DiliverUnicorn
-    copyleft
-
+/** LogF Ver1.1 DiliverUnicorn Copy LEFT Nothing RIGHTS**/
+/*
 Features:
     1.logs events.
     2.UTC time with in.
     3.Auto end line detect.
 */
-#include<stdio.h>
-#include<time.h>
-#include<string.h>
+/// INPUT Example : logf("LOG HI");
+/// Result in Events.txt file >> 20180717 UTC  4:41:23 LOG HI
+
+#include <time.h>
+
 void logf( char logstr[])
 {
     char event[256+22]={0};//22for time string use
@@ -36,3 +37,4 @@ void logf( char logstr[])
     }
 
 }
+
