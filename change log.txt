@@ -1,0 +1,5 @@
+Ver1.2 
+	1.change function name FORM logf() TO logF() to soluve "Warning: conflicting types for built-in function "
+	
+Ver1.0
+	First Version.
